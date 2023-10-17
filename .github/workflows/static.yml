@@ -47,5 +47,5 @@ jobs:
           # Upload only 'out' directory
           publish_dir: './out'
           destination_dir: static
-          exclude_assets: '.github,.vscode,**.json,**.yml,**.js,README.md,LICENSE'
+          exclude_assets: '.github,.git,.vscode,**.json,**.yml,**.js,README.md,LICENSE'
 
