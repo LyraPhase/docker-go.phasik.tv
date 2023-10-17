@@ -46,3 +46,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Upload only 'out' directory
           publish_dir: './out'
+          destination_dir: static
+          exclude_assets: '.github,.vscode,**.json,**.yml,**.js,README.md,LICENSE'
+
