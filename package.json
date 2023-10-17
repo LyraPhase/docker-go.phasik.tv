@@ -1,0 +1,26 @@
+{
+  "name": "npm-go.phasik.tv",
+  "version": "1.0.0",
+  "description": "URL shortener for go.phasik.tv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyraPhase/docker-go.phasik.tv.git"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "James Cuzella (@trinitronx)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LyraPhase/docker-go.phasik.tv/issues"
+  },
+  "homepage": "https://github.com/LyraPhase/docker-go.phasik.tv#readme",
+  "dependencies": {
+    "yaml": "^2.3.3"
+  }
+}
