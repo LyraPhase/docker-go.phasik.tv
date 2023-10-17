@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.setup_pages.outputs.base_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -39,6 +39,10 @@ jobs:
       - run: |
           npm install
           node index.js
+
+      - name: Setup Pages
+        id: setup_pages
+        uses: actions/configure-pages@v3
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
